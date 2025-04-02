@@ -1,0 +1,27 @@
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  li {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  li img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  li img:hover {
+    transform: scale(1.1);
+  }
+  
